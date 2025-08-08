@@ -44,6 +44,6 @@ test.only('AddAll', async ({ browser }) => {
     console.log("🧪 Output of splitByCapitalLetters:", names);
     names.forEach(names => console.log("✔️ ", names));
     await page.screenshot({ path: 'AddAll.png' });
-    await page.pause();
+    //await page.pause();
 
 });
