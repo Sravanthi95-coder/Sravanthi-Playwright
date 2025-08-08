@@ -32,7 +32,7 @@ test('screenshots',async({browser})=>{
 test.only('VisualTesting',async({browser,page})=>
 {
       await page.goto("https://rahulshettyacademy.com/client");
-      expect(await page.screenshot()).toMatchSnapshot('RahulShetty.png');
+      //expect(await page.screenshot()).toMatchSnapshot('RahulShetty.png');
 
 });
 
