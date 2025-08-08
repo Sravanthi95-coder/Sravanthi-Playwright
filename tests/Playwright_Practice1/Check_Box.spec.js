@@ -37,6 +37,7 @@ test('Disabled_CheckBox', async ({ browser }) =>
    await page.locator('#chk1').click();
    const isDisabledCheckbox = await page.locator('#chk3').isDisabled();
    console.log('Checkbox is disabled:', isDisabledCheckbox);
+   await page.pause();
 });
 /*
   3.Verify whether we are able to select Multiple checkboxes individually under Multiple checkbox demo
