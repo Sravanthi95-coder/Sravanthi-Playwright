@@ -1,0 +1,35 @@
+[33mcommit afc583ddae46d3377655c2d6625a65e5d5cff2c1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature1[m[33m)[m
+Author: Sravanthi <sravanthich2021@gmail.com>
+Date:   Fri Aug 8 17:49:59 2025 +0530
+
+    feature1
+
+[33mcommit 98d54330789fabed5f2e2b750703cd62b3a3694b[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Sravanthi <sravanthich2021@gmail.com>
+Date:   Fri Aug 8 15:31:03 2025 +0530
+
+    Version3
+
+[33mcommit cde53e9c28f3a0f16283e4b36877689535d64761[m
+Author: Sravanthi <sravanthich2021@gmail.com>
+Date:   Fri Aug 8 14:52:55 2025 +0530
+
+    Version2
+
+[33mcommit 367434a97f93d3cca1c40819228d818b300e36e3[m
+Author: Sravanthi <sravanthich2021@gmail.com>
+Date:   Fri Aug 8 14:29:46 2025 +0530
+
+    “version1”
+
+[33mcommit 0677121ee087a213afbf7ea1c66680383b45aa7f[m
+Author: Sravanthi <sravanthich2021@gmail.com>
+Date:   Sun Aug 3 16:07:53 2025 +0530
+
+    Added Playwright test suite for registration page
+
+[33mcommit 17d169572c8cce2d9770bce8af0bce3920774f4b[m
+Author: Sravanthi Chilakapati <sravanthich2021@gmail.com>
+Date:   Sat Jul 19 12:10:06 2025 +0530
+
+    Initial commit with Playwright setup
