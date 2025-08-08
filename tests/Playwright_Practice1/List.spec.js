@@ -43,7 +43,7 @@ test.only('AddAll', async ({ browser }) => {
     const names = await splitByCapitalLetters(addedListNames);
     console.log("🧪 Output of splitByCapitalLetters:", names);
     names.forEach(names => console.log("✔️ ", names));
-    await page.screenshot({ path: 'AddAll.png' });
+    await page.screenshot({ path: 'AddAllSC.png' });
     //await page.pause();
 
 });
