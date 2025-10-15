@@ -15,14 +15,23 @@ import { defineConfig, devices } from '@playwright/test';
   },
      reporter :"html",  // generate html report after execution
   
-      use: { 
-        browserName :'chromium', // we are chromium browser
-        headless : true, 
-        screenshot   : "on",
-        trace : "on"
-      //trace : "retain-on-failure"
+    use: { 
         
+      // ...devices['iPhone 11'],
+        headless: false,
+        screenshot: 'on', // screenshots
+        trace: 'on', // traces
+        ignoreHTTPSErrors: true,
+        permissions:['geolocation'],
+        video: 'retain-on-failure', // video capture
+        browserName: 'chromium', // we are chromium browser
+
+
+
+      
    },
+
+
 });
 module.exports = config; // we can export config variable it will be avaiable across the project
 
