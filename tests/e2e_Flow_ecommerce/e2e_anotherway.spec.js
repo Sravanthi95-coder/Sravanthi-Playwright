@@ -13,6 +13,8 @@ test('@Webst Client App login', async ({ page }) => {
    await page.getByPlaceholder("enter your passsword").fill("Myfirstjob@2021");
    await page.getByRole('button',{name:"Login"}).click();
    await page.waitForLoadState('networkidle');
+   //expect(await page.title()).toBe('Wrong Title'); // Will fail, has written for trace viewer copy prompt butotn review
+
    await page.locator(".card-body b").first().waitFor();
     //Here got all the products,filter zara coat 3 and click on Add to Cart by identifying by role as button
 
