@@ -13,7 +13,8 @@ import { defineConfig, devices } from '@playwright/test';
   {
     timeout :80000 // Using expect we can set timeout for assertions
   },
-     reporter :"html",  // generate html report after execution
+    // reporter :"html",  // generate html report after execution
+    reporter: [['html', { outputFolder: 'playwright-report' }]],
   
     use: { 
         
