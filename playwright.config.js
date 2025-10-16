@@ -8,6 +8,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
  const config = ({                            // here congif is const varable which holds all the options mentioned under braces
   testDir: './tests',
+  retries:1,
   timeout : 80000,// this timeout uses for every step
   expect:
   {
